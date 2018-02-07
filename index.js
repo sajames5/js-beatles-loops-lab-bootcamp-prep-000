@@ -12,10 +12,13 @@ function johnLennonFacts(array)
     return newArray
     }
     
-function iLoveTheBeatles(number)
-{var array = []}
-  do {array.push('I love the Beatles!')
-   while (number < 8)  
+function iLoveTheBeatles(number) {
+  var array = []
+  do {
+    array.push('I love the Beatles!')
     number++
-    return 'I love the Beatles!'}
-    
+  }
+   while (number < 8)   
+   return array
+}
+   
